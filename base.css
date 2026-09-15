@@ -345,6 +345,10 @@ footer ul li {
     border-radius: 30px;
 }
 
+@media (max-width: 768px) {
+    font-size: 20px;
+}
+
 .text .eventbox .lastbutton {
     display: flex;
     justify-content: center;
@@ -356,6 +360,10 @@ footer ul li {
     max-width: 851px;
     height: 60px;
     border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+    font-size: 21px;
 }
 
 .text .eventbox p {
