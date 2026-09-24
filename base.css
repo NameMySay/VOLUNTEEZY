@@ -198,7 +198,7 @@ footer ul li {
 @media (max-width: 768px) {
     .start .textt img {
         max-width: none !important;
-        width: 500px !important;
+        width: 420px !important;
         left: 50%;
         right: auto;
         transform: translateX(-50%);
