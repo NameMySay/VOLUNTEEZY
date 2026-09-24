@@ -197,9 +197,11 @@ footer ul li {
 
 @media (max-width: 768px) {
     .start .textt img {
-        display: block;
-        margin: 0 auto;
-        max-width: 200%;
+        max-width: none !important;
+        width: 500px !important;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
     }
 }
         
