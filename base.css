@@ -195,6 +195,15 @@ footer ul li {
     right: 15px;
 }
 
+@media (max-width: 768px) {
+    .start .textt img {
+        display: block;
+        margin: 0 auto;
+        max-width: 200%;
+    }
+}
+        
+
 .start .stiker {
     position: absolute;
     right: 50px;
@@ -300,6 +309,12 @@ footer ul li {
     background: radial-gradient(circle,rgba(216, 216, 216,.30) 2px, transparent 2px), radial-gradient(circle,rgba(216, 216, 216,.30) 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 1), rgba(75, 175, 14, 0.1));
     background-size: 10px 10px, 10px 10px, cover;
     background-position: 0 0, 5px 5px, 0 0;
+}
+
+@media (max-width: 768px) {
+    .text .eventbox { 
+        padding: 10px 20px 10px 20px;
+    }
 }
 
 .text .eventbox h2 {
